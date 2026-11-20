@@ -1,8 +1,0 @@
-target/
-*.class
-.idea/
-.project
-.classpath
-.settings/
-.env
-.DS_Store
