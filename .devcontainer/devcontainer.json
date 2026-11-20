@@ -1,0 +1,10 @@
+{
+  "name": "SmartFind Online (Java + MySQL)",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "workspace",
+  "workspaceFolder": "/workspaces/smartfind",
+  "shutdownAction": "stopCompose",
+  "forwardPorts": [8080],
+  "portsAttributes": {"8080": {"label": "SmartFind web app", "onAutoForward": "openBrowser", "visibility": "private"}},
+  "customizations": {"vscode": {"extensions": ["vscjava.vscode-java-pack", "vscjava.vscode-maven"]}}
+}
